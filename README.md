@@ -1,14 +1,13 @@
 # Hybrid-ML-Models-for-Renewable-Energy-Forecasting-in-Smart-Grid-Applications-
-Hybrid-RECast: Smart Renewable Energy Forecasting
-📌 Overview
-Hybrid-RECast is a hybrid machine learning model designed to accurately forecast renewable energy outputs based on environmental factors like temperature, pressure, light intensity, UV index, and humidity.
+Hybrid-RECast: Smart Renewable Energy Forecasting-
+📌 Overview : Hybrid-RECast is a hybrid machine learning model designed to accurately forecast renewable energy outputs based on environmental factors like temperature, pressure, light intensity, UV index, and humidity.
 Our solution combines LightGBM, XGBoost, and Linear Regression in a stacking ensemble, resulting in a robust and reliable prediction pipeline.
 
-🎯 Inspiration
+🎯 Inspiration:
 Energy forecasting is a critical challenge in the transition towards sustainable energy systems.
 We were inspired by the idea of improving renewable energy utilization by making predictions more accurate, which helps in reducing energy waste and improving grid stability.
 
-🚀 Features
+🚀 Features:
 📊 Hybrid ML Model: Combines multiple algorithms for improved accuracy
 🧹 Smart Preprocessing: Handles missing data, feature selection, and encoding automatically
 📈 High Accuracy: Optimized for lower MAE and RMSE
@@ -27,7 +26,7 @@ Tuned hyperparameters for optimal performance
 Evaluation:
 Used MAE, MSE, RMSE, and R² Score for evaluation
 
-💡 Tech Stack
+💡 Tech Stack:
 Languages: Python
 Libraries: Pandas, NumPy, Scikit-learn, LightGBM, XGBoost
 Techniques: Stacking Regressor, Chi-Square Feature Selection, Missing Value Imputation
@@ -35,17 +34,17 @@ Version Control: Git, GitHub
 Environment: Google Collab
 
 
-🏆 Challenges We Faced
+🏆 Challenges We Faced:
 Handling noisy and incomplete dataset
 Balancing bias-variance tradeoff in hybrid models
 Achieving lower MAE while keeping model complexity low
 
-🎓 What We Learned
+🎓 What We Learned:
 Importance of feature selection in improving ML model performance
 How stacking models can outperform single models
 How to design a robust ML pipeline from data preprocessing → model training → evaluation
 
-🔮 What's Next
+🔮 What's Next:
 Integrate with IoT-based energy meters for real-time forecasting
 Deploy using Streamlit or Flask for an interactive dashboard
 Add deep learning models (like LSTM) for time-series forecasting
